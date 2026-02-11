@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "facet_book"
+  author: "Dasha Yermol"
+  date: "2/10/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - Data.qmd
+    - Model_Types.qmd
+    - Null Model.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
